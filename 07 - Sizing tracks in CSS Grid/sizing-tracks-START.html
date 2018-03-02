@@ -19,7 +19,7 @@
     <div class="item">7</div>
     <div class="item">8</div>
     <div class="item">9</div>
-    <div class="item">10</div>
+    <div class="item">10<br>10<br>10</div>
     <div class="item">11</div>
     <div class="item">12</div>
     <div class="item">13</div>
@@ -31,6 +31,9 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      border: 10px solid #000;
+      grid-template-columns:  repeat(2, 1fr) auto;
+      grid-template-rows:  auto ;
     }
   </style>
 </body>
